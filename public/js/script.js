@@ -1,6 +1,6 @@
 const answers_no = {
     english: [
-        "No",
+        "No?",
         "Are you sure?",
         "Are you really sure??",
         "Are you really realy sure???",
