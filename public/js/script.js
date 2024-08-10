@@ -95,18 +95,7 @@ no_button.addEventListener('click', () => {
     }
 });
 
-yes_button.addEventListener('click', () => {
-    // change banner gif path
-    let banner = document.getElementById('banner');
-    banner.src = "public/images/yes.gif";
-    refreshBanner();
-    // hide buttons div
-    let buttons = document.getElementsByClassName('buttons')[0];
-    buttons.style.display = "none";
-    // show message div
-    let message = document.getElementsByClassName('message')[0];
-    message.style.display = "block";
-});
+
 
 function refreshBanner() {
     // Reload banner gif to force load  
