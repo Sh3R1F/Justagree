@@ -97,13 +97,7 @@ no_button.addEventListener('click', () => {
 
 
 
-function refreshBanner() {
-    // Reload banner gif to force load  
-    let banner = document.getElementById('banner');
-    let src = banner.src;
-    banner.src = '';
-    banner.src = src;
-}
+
 
 function changeLanguage() {
     const selectElement = document.getElementById("language-select");
